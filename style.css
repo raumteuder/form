@@ -42,8 +42,7 @@ input[type="submit"] {
   border: 1px solid sienna;
   border-radius: 4px;
   cursor: pointer;
-  margin-left: 25vw;
-  margin-top: 20px;
+  margin: 20px 0 20px 25vw;
   color: sienna;
 }
 input[type="checkbox"] {
