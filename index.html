@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <fieldset>
+          <legend>This is my Form</legend>
+          <div class="row">
+            <div class="col-25">
+              <label for="email">Email</label>
+            </div>
+            <div class="col-75">
+              <input type="email" name="email" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="password">Password</label>
+            </div>
+            <div class="col-75">
+              <input type="password" name="password" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="confirm">Confirm Password</label>
+            </div>
+            <div class="col-75">
+              <input type="password" name="confirm-password" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="upload">Upload</label>
+            </div>
+            <div class="col-75">
+              <input type="file" name="upload" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="gender">Gender</label>
+            </div>
+            <div class="col-75">
+              <input type="radio" name="gender" value="male" /> Male
+              <input type="radio" name="gender" value="female" /> Female
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="country">Select Country</label>
+            </div>
+            <div class="col-75">
+              <select name="country">
+                <option value="nepal">Nepal</option>
+                <option value="china">China</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="hobby">Hobby</label>
+            </div>
+            <div class="col-75">
+              <input type="checkbox" name="hobby" value="cricket" />cricket
+              <input type="checkbox" name="hobby" value="football" />football
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="address">Address</label>
+            </div>
+            <div class="col-75">
+              <textarea rows="5" cols="20"></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <input type="submit" value="Submit" />
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
