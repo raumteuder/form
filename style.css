@@ -37,6 +37,9 @@ input[type="submit"] {
   background-color: white;
   border: 0;
 }
+input[type="submit"] {
+  background-color: lemonchiffon;
+}
 
 input[type="radio"] {
   margin-top: 12px;
@@ -86,8 +89,7 @@ fieldset {
 
 legend {
   display: block;
-  padding-left: 2px;
-  padding-right: 2px;
+  padding: 5px;
   background-color: orange;
   color: white;
   border: 1px solid black;
