@@ -11,12 +11,13 @@
 select {
   width: 20%;
   padding: 12px 10px;
-  margin-bottom: 7px;
+  margin: 7px 0;
   border: 1px solid #ccc;
   border-radius: 4px;
   resize: vertical;
   color: sienna;
   border: 1px solid sienna;
+  background-color: lemonchiffon;
 }
 
 label {
@@ -35,6 +36,10 @@ input[type="file"],
 input[type="submit"] {
   background-color: white;
   border: 0;
+}
+
+input[type="radio"] {
+  margin-top: 12px;
 }
 
 input[type="submit"] {
