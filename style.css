@@ -10,11 +10,13 @@
 
 select {
   width: 20%;
-  padding: 12px;
+  padding: 12px 10px;
   margin-bottom: 7px;
   border: 1px solid #ccc;
   border-radius: 4px;
   resize: vertical;
+  color: sienna;
+  border: 1px solid sienna;
 }
 
 label {
@@ -25,7 +27,7 @@ label {
 input,
 textarea {
   margin-top: 8px;
-  background-color: gainsboro;
+  background-color: lemonchiffon;
   border: 1px solid sienna;
 }
 
@@ -40,8 +42,11 @@ input[type="submit"] {
   border: 1px solid sienna;
   border-radius: 4px;
   cursor: pointer;
-  margin-left: 25vw;
-  margin-top: 20px;
+  margin: 20px 0 20px 25vw;
+  color: sienna;
+}
+input[type="checkbox"] {
+  margin-top: 12px;
 }
 
 .col-25 {
