@@ -57,14 +57,14 @@ input[type="checkbox"] {
   margin-top: 12px;
 }
 
-.col-25 {
+.col-45 {
   float: left;
   width: 45%;
   margin-top: 6px;
   text-align: right;
 }
 
-.col-75 {
+.col-55 {
   float: left;
   width: 55%;
   margin-top: 6px;
