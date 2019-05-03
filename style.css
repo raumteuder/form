@@ -10,11 +10,13 @@
 
 select {
   width: 20%;
-  padding: 12px;
+  padding: 12px 10px;
   margin-bottom: 7px;
   border: 1px solid #ccc;
   border-radius: 4px;
   resize: vertical;
+  color: sienna;
+  border: 1px solid sienna;
 }
 
 label {
@@ -42,6 +44,10 @@ input[type="submit"] {
   cursor: pointer;
   margin-left: 25vw;
   margin-top: 20px;
+  color: sienna;
+}
+input[type="checkbox"] {
+  margin-top: 12px;
 }
 
 .col-25 {
